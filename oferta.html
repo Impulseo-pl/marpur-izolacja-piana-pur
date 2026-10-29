@@ -19,28 +19,47 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css?v=6a5ce6d9">
+<link rel="stylesheet" href="assets/kw.css?v=20261029">
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Marpur - izolacja pianą pur" width="728" height="459" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="oferta.html" class="active" aria-current="page">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48501245463" class="btn btn-accent">Zadzwoń +48 501 245 463</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<header class="kw-head">
+  <a class="kw-brand" href="index.html"><img class="nav-logo" src="img/logo.png" alt="Marpur - izolacja pianą pur" width="728" height="459" decoding="async"></a>
+  <button class="kw-burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="kw-menu"><span></span><span></span></button>
+  <a class="kw-phone" href="tel:+48501245463">+48 501 245 463 <span class="arr">→</span></a>
 </header>
+<nav class="kw-menu" id="kw-menu" aria-label="Menu">
+  <div>
+    <h4>Strona</h4>
+    <a href="index.html">Start</a>
+    <a href="oferta.html">Oferta</a>
+    <a href="realizacje.html">Realizacje</a>
+    <a href="o-nas.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+  </div>
+  <div class="kw-menu-small">
+    <h4>Co ocieplamy</h4>
+    <a href="oferta.html">Poddasza i dachy</a>
+    <a href="oferta.html">Stropy</a>
+    <a href="oferta.html">Ściany</a>
+    <a href="oferta.html">Hale i magazyny</a>
+    <a href="oferta.html">Fundamenty</a>
+  </div>
+  <div class="kw-menu-small">
+    <h4>Kontakt</h4>
+    <a href="tel:+48501245463">+48 501 245 463</a>
+    <p>Świerkowa 11, 64-630 Ryczywół</p>
+    <a href="https://www.facebook.com/marpurmarek.modlisz/" target="_blank" rel="noopener">Facebook →</a>
+    <a href="https://maps.google.com/?cid=6481977796129242069&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Opinie w Google →</a>
+  </div>
+</nav>
 
 <main>
 <section class="pagehead">
   <img src="img/g7.jpg" alt="Marpur - izolacja pianą pur - Zakres prac" width="1880" height="1255" decoding="async">
+  <span class="kw-ph-stripes" aria-hidden="true"></span>
   <div class="wrap">
     <span class="eyebrow">Co ocieplamy</span>
     <h1>Zakres prac</h1>
@@ -82,7 +101,7 @@
       </div>
     </div>
     <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g5.jpg" alt="Fundamenty" loading="lazy" width="1880" height="1255" decoding="async"></div>
+      <div class="svc-row-art"><img src="img/g11.jpg" alt="Fundamenty" loading="lazy" width="1880" height="1253" decoding="async"></div>
       <div>
         <span class="num">05</span>
         <h3>Fundamenty</h3>
@@ -115,32 +134,43 @@
 </section>
 </main>
 
-<footer>
+<footer class="kw-foot">
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Marpur - izolacja pianą pur</div>
-        <p>Natryskujemy piankę poliuretanową na poddasza, ściany, stropy, dachy, hale i fundamenty. Piana otwartokomórkowa albo zamkniętokomórkowa, dobrana do miejsca.</p>
+    <div class="kw-foot-grid">
+      <div>
+        <a class="kw-foot-logo" href="index.html"><img src="img/logo.png" alt="Marpur - izolacja pianą pur" width="728" height="459" loading="lazy" decoding="async"></a>
+        <p>Natrysk pianki poliuretanowej na poddasza, ściany, stropy, dachy, hale i fundamenty.</p>
       </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
+      <div>
         <h4>Kontakt</h4>
-        <a href="tel:+48501245463">+48 501 245 463</a>
-        <p>Świerkowa 11, 64-630 Ryczywół</p>
-        <a href="https://maps.google.com/?cid=6481977796129242069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.facebook.com/marpurmarek.modlisz/" target="_blank" rel="noopener" aria-label="Facebook - Marpur - izolacja pianą pur"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
-        <a class="soc" href="https://maps.google.com/?cid=6481977796129242069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Marpur - izolacja pianą pur"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+        <ul>
+          <li><a href="tel:+48501245463">+48 501 245 463</a></li>
+          <li>Świerkowa 11<span class="sub">64-630 Ryczywół</span></li>
+          <li><a href="https://maps.google.com/?cid=6481977796129242069&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać <span class="arr">→</span></a></li>
+        </ul>
       </div>
+      <div>
+        <h4>Strona</h4>
+        <ul>
+          <li><a href="oferta.html">Oferta</a></li>
+          <li><a href="realizacje.html">Realizacje</a></li>
+          <li><a href="o-nas.html">O nas</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Obserwuj nas</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/marpurmarek.modlisz/" target="_blank" rel="noopener">Facebook <span class="arr">→</span></a></li>
+          <li><a href="https://maps.google.com/?cid=6481977796129242069&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Opinie w Google <span class="arr">→</span></a></li>
+        </ul>
+        <div class="kw-soc">
+          <a class="soc" href="https://www.facebook.com/marpurmarek.modlisz/" target="_blank" rel="noopener" aria-label="Facebook - Marpur - izolacja pianą pur"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
+          <a class="soc" href="https://maps.google.com/?cid=6481977796129242069&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Marpur - izolacja pianą pur"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+        </div>
       </div>
     </div>
-    <div class="foot-bot">
+    <div class="kw-foot-bot">
       <span>© 2026 Marpur - izolacja pianą pur</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
@@ -150,5 +180,6 @@
 <div class="demo-wazne" data-do="2026-11-03" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/kw.js?v=20261029"></script>
 </body>
 </html>
